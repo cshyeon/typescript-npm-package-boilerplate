@@ -1,0 +1,11 @@
+# OS or Platform
+.DS_Store
+
+# Build files
+dist/
+
+# Documentation
+docs/
+
+# Dependencies
+node_modules/
