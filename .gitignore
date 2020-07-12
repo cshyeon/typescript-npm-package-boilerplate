@@ -1,6 +1,9 @@
 # OS or Platform
 .DS_Store
 
+# Coverages
+coverage/
+
 # Build files
 dist/
 

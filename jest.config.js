@@ -1,4 +1,6 @@
 module.exports = {
+  coverageDirectory: './coverage/',
+  collectCoverage: true,
   transform: {
     '^.+\\.ts$': 'ts-jest'
   },
@@ -11,4 +13,5 @@ module.exports = {
       enableTsDiagnostics: true
     }
   }
+
 };
