@@ -1,12 +1,15 @@
 {
-  "name": "this-is-test-for-publish",
-  "version": "0.0.2",
+  "name": "this-is-test-for-publishes",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "dev": "npm run example",
     "docs": "typedoc --options ./typedoc.config.ts",
+    "example": "node ./examples/index",
+    "prepublish": "npm run build && npm test",
     "test": "jest --config ./jest.config.js"
   },
   "keywords": [],
