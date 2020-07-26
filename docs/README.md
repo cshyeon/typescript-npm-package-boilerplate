@@ -1,3 +1,7 @@
+[this-is-test-for-publishes - v0.0.3](README.md) › [Globals](globals.md)
+
+# this-is-test-for-publishes - v0.0.3
+
 # typescript-npm-package-boilerplate
 
 [![Build Status](https://travis-ci.org/cshyeon/typescript-npm-package-boilerplate.svg?branch=master)](https://travis-ci.org/cshyeon/typescript-npm-package-boilerplate)
@@ -5,7 +9,6 @@
 
 *This is npm package boilerpalte.
 It is includes `typescript`, `jest`, `travis`, `eslint`, `tsdoc`, `codecov`.*
-
 
 ## How to customize
 - Change `package.json` information
@@ -23,4 +26,3 @@ npm publish
 
 ### Example api docs
 [API documents](https://github.com/cshyeon/typescript-npm-package-boilerplate/blob/master/docs/classes/moduleb.md) link
-
